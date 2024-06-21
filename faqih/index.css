@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.what-is-adaadu {
+    width: 1380px;
+    height: 681px;
+    border-radius: 15px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(0deg, #F5F5ED 0%, #C3DFFF 100%);
+    box-shadow: 6px 6px 24px 1px rgba(0, 0, 0, 15%);
+
+}
+
+.main-section {
+    background: #f8f9fa;
+}
+
+.about-section .card {
+    height: 296px;
+    width: 258px;
+    border: 1px solid;
+}
+
+.about-section .card img {
+    height: 209px;
+    width: 173px;
+    margin-left: 42px;
+    margin-top: 25px;
+    object-fit: cover;
+}
+
+.about-section .card-text {
+
+}
+
+.intro-adaadu{
+    font-size: 29px;
+    margin-left: 162px;
+    margin-right: 162px;
+}
+
+.title-what-is-adaadu{
+    font-size: 45px;
+    color: #222222;
+    font-weight: bold;
+    margin-left: 87px;
+}
+
+.adaadu-desc {
+    font-size: 29px;
+    margin-left: 87px;
+}
+
+.testimonials-section .card {
+    border: 1px solid;
+}
+
+.testimonials-section .card-body img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.footer-section {
+    margin-top: 100px;
+    background-color: #FFEFD1;
+}
+
+.footer-section img {
+    margin: 0 10px;
+}

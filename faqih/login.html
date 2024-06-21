@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-page">
+        <div class="container">
+            <div class="left-side">
+                <img src="../assets/login-bg.png" alt="Side Image">
+            </div>
+            <div class="right-side">
+                <div class="logo-container">
+                    <img src="../assets/logo-adaadu-svg.svg" alt="Logo 1" class="logo-uns">
+                    <img src="../assets/logo-uns-svg.svg" alt="Logo 2">
+                </div>
+                <h2>Welcome to AdaAdu</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email (SSO)</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-container">
+                            <input type="password" id="password" name="password" required>
+                            <span id="togglePassword" class="toggle-password">Show</span>
+                        </div>
+                    </div>
+                    <div class="form-group remember-me">
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
